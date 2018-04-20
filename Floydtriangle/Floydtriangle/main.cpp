@@ -15,5 +15,14 @@ int main() {
 		cout << "\n";
 	}
 
+	cout << "Reverse Floyd's triangle: " << endl;
+
+	for (int i = n; i > 0; i--) {
+		for (int l = i; l > 0; l--) {
+			x -= 1;
+			cout << x << " ";
+		}
+		cout << "\n";
+	}
 	return 0;
 }
